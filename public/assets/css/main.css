@@ -118,6 +118,22 @@ html[lang='zh-TW'] {
 }
 
 /**
+ * ja only. plfh is a Latin-only face (ITC Avant Garde subset) with no kana,
+ * kanji or CJK punctuation, so on the default stack every Japanese glyph falls
+ * through to PingFang TC / Noto Sans TC / Microsoft JhengHei. Those are
+ * Traditional Chinese faces: they centre 、 and 。 in the em box (Taiwan
+ * convention) and use Taiwanese forms for kanji such as 追, 備 and 進, which
+ * reads as broken punctuation on the Japanese pages. Naming the TC families
+ * explicitly also beats the browser's own lang="ja" fallback, so the fix is to
+ * put Japanese faces ahead of the generic family here. --font-body inherits
+ * from --font-display, so reading copy is covered too.
+ */
+html[lang='ja'] {
+  --font-display: 'plfh', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/**
  * Ming ships two real cuts, 200 and 700. The 200 is for large quiet type; at
  * the 12–14px this site sets its copy, on a near-black page, it reads frail.
  * So reading copy takes the 700. Nothing here is a synthesized weight: both
