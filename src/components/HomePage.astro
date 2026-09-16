@@ -229,17 +229,25 @@ const joinCta = copy.join.cta;
                   <h3>{resource.title}</h3>
                   <p class="body">{resource.body}</p>
                 </div>
-                <button
-                  class="btn btn--dark"
-                  type="button"
-                  data-slideshow-open={resource.id}
-                  aria-haspopup="dialog"
-                  aria-controls={`slideshow-${resource.id}`}
-                >
-                  <span>{resource.cta.label}</span>
-                  <span class="btn__arrow" aria-hidden="true">→</span>
-                  <span class="sr-only">({copy.papers.viewer.openHint})</span>
-                </button>
+                {resource.slides ? (
+                  <button
+                    class="btn btn--dark"
+                    type="button"
+                    data-slideshow-open={resource.id}
+                    aria-haspopup="dialog"
+                    aria-controls={`slideshow-${resource.id}`}
+                  >
+                    <span>{resource.cta.label}</span>
+                    <span class="btn__arrow" aria-hidden="true">→</span>
+                    <span class="sr-only">({copy.papers.viewer.openHint})</span>
+                  </button>
+                ) : (
+                  <CtaLink
+                    cta={resource.cta}
+                    class="btn btn--dark"
+                    externalLabel={copy.a11y.externalLink}
+                  />
+                )}
               </article>
             ))
           }
@@ -407,8 +415,10 @@ const joinCta = copy.join.cta;
 
   <SiteFooter copy={copy} />
   {
-    copy.papers.resources.map((resource) => (
-      <SlideshowViewer resource={resource} copy={copy.papers.viewer} rootPath={rootPath} />
-    ))
+    copy.papers.resources
+      .filter((resource) => resource.slides)
+      .map((resource) => (
+        <SlideshowViewer resource={resource} copy={copy.papers.viewer} rootPath={rootPath} />
+      ))
   }
 </div>

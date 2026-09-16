@@ -235,8 +235,8 @@
           "tone": "lime"
         },
         {
-          "id": "science",
-          "venue": "In Science —",
+          "id": "working-paper",
+          "venue": "Working paper —",
           "title": "“In the Image of Their Tools”",
           "body": "The crisp engineering principle behind the agenda: why institutions come to resemble the cognitive technology of their age, and what it means to build in the shape of a neural network. The distinctive thesis, with the historical record and the technical mapping.",
           "cta": {
@@ -275,6 +275,16 @@
             "directory": "deck",
             "count": 12,
             "document": "grand-challenges-deck.pdf"
+          }
+        },
+        {
+          "id": "launch-sequence",
+          "title": "The Launch Sequence",
+          "body": "The Institute for Progress is running a rolling call for essays describing concrete, ambitious AI projects — sociotechnical proposals included. Selected authors get editorial support, a $10,000 honorarium, and a path to philanthropic funding.",
+          "cta": {
+            "label": "View the RFP",
+            "href": "https://ifp.org/the-launch-sequence/",
+            "external": true
           }
         }
       ],
@@ -1472,8 +1482,8 @@
           "tone": "lime"
         },
         {
-          "id": "science",
-          "venue": "刊於 Science —",
+          "id": "working-paper",
+          "venue": "工作論文 —",
           "title": "〈依其工具之形〉",
           "body": "議程背後那條清晰的工程原則：制度為何會長得像當代的認知技術，以及照神經網路的樣子來建造，究竟是什麼意思。這是我們最獨到的論點，佐以歷史紀錄與技術對應。",
           "cta": {
@@ -1512,6 +1522,16 @@
             "directory": "deck",
             "count": 12,
             "document": "grand-challenges-deck.pdf"
+          }
+        },
+        {
+          "id": "launch-sequence",
+          "title": "The Launch Sequence",
+          "body": "智庫 Institute for Progress 長期徵求提案文章，主題為具體而宏大的 AI 專案——社會技術（sociotechnical）提案同樣歡迎。獲選作者可獲編輯協力、一萬美元稿酬，並媒合慈善資金。",
+          "cta": {
+            "label": "查看徵件辦法（英文原文）",
+            "href": "https://ifp.org/the-launch-sequence/",
+            "external": true
           }
         }
       ],
@@ -2866,8 +2886,8 @@
           "tone": "lime"
         },
         {
-          "id": "science",
-          "venue": "Science掲載",
+          "id": "working-paper",
+          "venue": "ワーキングペーパー",
           "title": "In the Image of Their Tools",
           "body": "この提言を支える明快な工学原則を示します。なぜ制度は、その時代の認知技術に似てくるのか。ニューラルネットワークのかたちで築くとは何を意味するのか。歴史的な記録と技術的な対応関係を備えた、独自の主張です。",
           "cta": {
@@ -2906,6 +2926,16 @@
             "directory": "deck",
             "count": 12,
             "document": "grand-challenges-deck.pdf"
+          }
+        },
+        {
+          "id": "launch-sequence",
+          "title": "The Launch Sequence",
+          "body": "米国のシンクタンクInstitute for Progressが、具体的で野心的なAIプロジェクトを描くエッセイを常時募集しています。社会技術的な提案も歓迎で、採択された執筆者には編集サポートと1万ドルの謝金、そしてフィランソロピー資金への道筋が用意されます。",
+          "cta": {
+            "label": "募集要項を見る（英語原文）",
+            "href": "https://ifp.org/the-launch-sequence/",
+            "external": true
           }
         }
       ],
@@ -3946,8 +3976,8 @@
           "tone": "lime"
         },
         {
-          "id": "science",
-          "venue": "En Science —",
+          "id": "working-paper",
+          "venue": "Documento de trabajo —",
           "title": "«A imagen de sus herramientas»",
           "body": "El principio de ingeniería nítido detrás de la agenda: por qué las instituciones llegan a parecerse a la tecnología cognitiva de su época y qué significa construir con la forma de una red neuronal. La tesis distintiva, con el registro histórico y el mapeo técnico.",
           "cta": {
@@ -3986,6 +4016,16 @@
             "directory": "deck",
             "count": 12,
             "document": "grand-challenges-deck.pdf"
+          }
+        },
+        {
+          "id": "launch-sequence",
+          "title": "The Launch Sequence",
+          "body": "El Institute for Progress, un think tank, mantiene una convocatoria abierta de ensayos que describan proyectos de IA concretos y ambiciosos — incluidas propuestas sociotécnicas. Los autores seleccionados reciben apoyo editorial, un honorario de US$10.000 y un camino hacia financiación filantrópica.",
+          "cta": {
+            "label": "Ver la convocatoria (en inglés)",
+            "href": "https://ifp.org/the-launch-sequence/",
+            "external": true
           }
         }
       ],
@@ -5173,8 +5213,8 @@
           "tone": "lime"
         },
         {
-          "id": "science",
-          "venue": "Na Science —",
+          "id": "working-paper",
+          "venue": "Documento de trabalho —",
           "title": "“À imagem de suas ferramentas”",
           "body": "O princípio de engenharia nítido por trás da agenda: por que as instituições passam a se assemelhar à tecnologia cognitiva de sua época e o que significa construir segundo a arquitetura de uma rede neural. A tese distintiva, com o registro histórico e o mapeamento técnico.",
           "cta": {
@@ -5213,6 +5253,16 @@
             "directory": "deck",
             "count": 12,
             "document": "grand-challenges-deck.pdf"
+          }
+        },
+        {
+          "id": "launch-sequence",
+          "title": "The Launch Sequence",
+          "body": "O Institute for Progress, think tank sediado em Washington, mantém uma chamada contínua de ensaios que descrevam projetos concretos e ambiciosos de IA — propostas sociotécnicas incluídas. Os autores selecionados recebem apoio editorial, honorários de US$ 10 mil e um caminho para financiamento filantrópico.",
+          "cta": {
+            "label": "Veja a chamada",
+            "href": "https://ifp.org/the-launch-sequence/",
+            "external": true
           }
         }
       ],

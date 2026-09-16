@@ -8,6 +8,9 @@ type Props = {
 };
 
 const { resource, copy, rootPath } = Astro.props;
+if (!resource.slides) {
+  throw new Error(`Resource "${resource.id}" has no slide set to display`);
+}
 const slideNumbers = Array.from({ length: resource.slides.count }, (_, index) => index + 1);
 const slides = slideNumbers.map(
   (number) =>

@@ -53,7 +53,8 @@ export type ResourceLink = {
   title: string;
   body: string;
   cta: Cta;
-  slides: SlideSet;
+  /** Present only for on-page slideshow resources; absent for external links. */
+  slides?: SlideSet;
 };
 
 export type CoalitionPerson = {
