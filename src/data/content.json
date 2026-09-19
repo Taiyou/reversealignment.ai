@@ -2529,17 +2529,17 @@
         },
         {
           "id": "grants",
-          "label": "迅速助成",
+          "label": "語り手向けの助成",
           "href": "#grants"
         },
         {
           "id": "coalition",
-          "label": "連合",
+          "label": "賛同者",
           "href": "#coalition"
         }
       ],
       "coalition": {
-        "label": "連合",
+        "label": "賛同者",
         "href": "#coalition"
       }
     },
@@ -2551,7 +2551,7 @@
           "links": [
             {
               "id": "coalition",
-              "label": "連合",
+              "label": "賛同者",
               "href": "#coalition"
             }
           ]
@@ -2609,9 +2609,9 @@
       "externalLink": "新しいタブで開きます",
       "heroMotionLabel": "重力場のアニメーション",
       "challengeGrid": "社会技術上の重大課題",
-      "coalitionGrid": "連合のメンバー",
+      "coalitionGrid": "賛同メンバー",
       "directoryControls": "ディレクトリの絞り込みと並べ替え",
-      "directoryResults": "絞り込まれた連盟メンバー",
+      "directoryResults": "絞り込まれた賛同メンバー",
       "formErrors": "フォームの誤りを修正してください。",
       "formStatus": "フォームの状態"
     },
